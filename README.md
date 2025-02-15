@@ -8,6 +8,12 @@ go install fyne.io/fyne/v2/cmd/fyne@latest
 
 ## Windows App build using Macbook M2 Pro
 
+- If you have any system images depedencies then plese use the following command
+
+```bash
+fyne bundle -o internal/ui/resource.go tt_v2_logo.png
+```
+
 - Make sure there is a icon called `Icon.png` inside the cmd folder or root folder where the main function located.
 
 **Install the dependencies:**
